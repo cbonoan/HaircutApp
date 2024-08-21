@@ -16,11 +16,11 @@ In addition, this was the first time I used an organization's API. This has taug
 
 ## Screenshots
 
-![](/screenshots/screenshots-1.JPG)
+![](./screenshots/screenshots-1.JPG)
 
-![](/screenshots/screenshots-2.JPG)
+![](./screenshots/screenshots-2.JPG)
 
-![](/screenshots/screenshots-3.JPG)
+![](./screenshots/screenshots-3.JPG)
 
 ## Technologies Used
 - React.js
