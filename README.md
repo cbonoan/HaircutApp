@@ -24,6 +24,7 @@ In addition, this was the first time I used an organization's API. This has taug
 
 ## Technologies Used
 - React.js
+- SASS
 - Typescript
 - React Bootstrap
 - GO
