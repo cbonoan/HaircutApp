@@ -41,7 +41,7 @@ const useHaircutRequest = () => {
         } else {
             setSubmitError(false);
             
-            await axios.post('/api/test', {
+            await axios.post('/api/get-hair-recs', {
                 ...featureType
             })
             .then((res) => {

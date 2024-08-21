@@ -13,10 +13,10 @@ import (
 	"github.com/sashabaranov/go-openai/jsonschema"
 )
 
-func testHandler(w http.ResponseWriter, r *http.Request) {
+func getHairRecommendationsHanlder(w http.ResponseWriter, r *http.Request) {
 	if r.Method != http.MethodPost {
 		w.WriteHeader(http.StatusMethodNotAllowed)
-		fmt.Fprintf(w, `{"error": "Mehtod not allowed"}`)
+		fmt.Fprintf(w, `{"error": "Method not allowed"}`)
 		return
 	}
 
@@ -134,7 +134,7 @@ func main() {
 		return
 	}
 
-	http.HandleFunc("/api/test", testHandler);
+	http.HandleFunc("/api/get-hair-recs", getHairRecommendationsHanlder);
 	fmt.Println("Server is running on port 8080");
 
 	http.ListenAndServe(":8080", nil);
